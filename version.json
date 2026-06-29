@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "name": "NH-Download",
+  "release_date": "2026-06-29",
+  "download_url": "https://example.com/download/NH-Download.zip",
+  "changelog": [
+    "Initial release with Firebase Cloud Firestore license activation",
+    "Direct SDK integration for license status and device limits",
+    "Dynamic title bar showing active license key, expiration, and remaining days",
+    "Quiet terminal logging for cleaner run status"
+  ],
+  "description": "Premium multi-platform downloader with secure Firestore licensing."
+}
