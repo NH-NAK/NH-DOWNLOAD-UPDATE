@@ -1,13 +1,13 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "NH-Download",
-  "release_date": "2026-06-29",
-  "download_url": "https://example.com/download/NH-Download.zip",
+  "release_date": "2026-07-02",
+  "download_url": "https://github.com/NH-NAK/NH-DOWNLOAD-UPDATE/releases/download/v1.0.1/NH-Download-Setup.exe",
   "changelog": [
-    "Initial release with Firebase Cloud Firestore license activation",
-    "Direct SDK integration for license status and device limits",
-    "Dynamic title bar showing active license key, expiration, and remaining days",
-    "Quiet terminal logging for cleaner run status"
+    "Fixed background update checker QThread lifetime crash (QThread: Destroyed while thread still running)",
+    "Added safety check for None primary screen resolution at startup",
+    "Optimized application exit cleanups and joined all running threads before window closure",
+    "Updated client version to 1.0.1"
   ],
   "description": "Premium multi-platform downloader with secure Firestore licensing."
 }
